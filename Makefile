@@ -6,7 +6,7 @@
 #    By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/26 00:21:48 by pavorapa          #+#    #+#              #
-#    Updated: 2024/11/26 05:20:57 by pavorapa         ###   ########.fr        #
+#    Updated: 2024/11/27 01:00:27 by pavorapa         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,10 +17,9 @@ LIBFT =    ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c \
         ft_strnstr.c ft_strrchr.c ft_tolower.c ft_toupper.c 
 
 
+SRCS = ${LIBFT} ${ADDITIONAL}
 
-SRCS = ${LIBC} ${ADDITIONAL}
-
-SRCSALL = ${LIBC} ${ADDITIONAL} ${BONUS}
+SRCSALL = ${LIBFT} ${ADDITIONAL} ${BONUS}
 
 OBJS = ${SRCS:.c=.o}
 

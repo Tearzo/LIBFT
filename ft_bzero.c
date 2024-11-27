@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 03:04:34 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/11/26 05:25:53 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/11/26 23:10:16 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_bzero(void *s, size_t n)
 	i = 0;
 	while (i < n)
 	{
-		*(unsigned char *)(s + i) - 0;
+		*(unsigned char *)(s + i) = 0;
 		i++;
 	}
 }

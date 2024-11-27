@@ -6,23 +6,13 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 19:35:50 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/11/26 00:32:22 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/11/26 23:38:09 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strlen(char *c)
-{
-	int	i;
-
-	i = 0;
-	while (c[i])
-		i++;
-	return (i);
-}
-
-unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
+size_t	ft_strlcat(char *dest, const char *src, size_t size)
 {
 	unsigned int	lendest;
 	unsigned int	j;

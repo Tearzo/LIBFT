@@ -6,13 +6,13 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 18:31:09 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/11/26 00:33:12 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/11/26 23:39:02 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strlen(char *c)
+size_t	ft_strlen(const char *c)
 {
 	int	i;
 

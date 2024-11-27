@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 20:27:36 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/11/26 00:33:24 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/11/26 23:46:01 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,6 @@
 int	ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
-		return (c = 'A' - 'a');
+		return (c + 'a' - 'A');
 	return (c);
 }

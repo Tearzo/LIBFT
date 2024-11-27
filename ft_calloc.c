@@ -6,13 +6,13 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 05:15:35 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/11/26 06:34:04 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/11/27 00:14:39 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*calloc(size_t elementCount, size_t elementSize)
+void	*ft_calloc(size_t elementCount, size_t elementSize)
 {
 	void *pointer;
 	size_t i;
