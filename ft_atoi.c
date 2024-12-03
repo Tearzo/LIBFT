@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 17:57:06 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/11/27 00:12:41 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/03 20:45:47 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,8 @@ int	ft_atoi(const char *c)
 	}
 	return (result * sign);
 }
+
+// changer une chaine de caractere en entier
+// on gere les espaces etc
+// les + ou -
+// on change les caracteres en entier de 1 a 1

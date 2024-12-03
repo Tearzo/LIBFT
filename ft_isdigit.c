@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 17:20:29 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/11/26 00:31:52 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/03 20:59:57 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,3 +19,4 @@ int	ft_isdigit(int c)
 	else
 		return (0);
 }
+// tester si un caratere est decimal ou non

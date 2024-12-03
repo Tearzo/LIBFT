@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 05:14:58 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/11/26 06:19:09 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/03 21:41:15 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 void	*ft_memcpy(void *destination, const void *source, size_t size)
 {
-	unsigned char *dest;
-	unsigned char *src;
-	size_t i;
+	unsigned char	*dest;
+	unsigned char	*src;
+	size_t			i;
 
 	dest = (unsigned char *)destination;
 	src = (unsigned char *)source;
@@ -30,3 +30,5 @@ void	*ft_memcpy(void *destination, const void *source, size_t size)
 	}
 	return (destination);
 }
+// fonctionne comme un strcpy mais la on copie un bloc de memoire
+// de la source vers sa destination

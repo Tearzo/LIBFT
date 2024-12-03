@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 23:01:26 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/11/26 03:41:34 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/03 21:42:53 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,5 @@ char	*ft_strchr(const char *string, int searchedChar)
 		return ((char *)&string[i]);
 	return (NULL);
 }
+// cherche le caractere sur
+// la chaine de caratere puis renvoie le reste de la chaine

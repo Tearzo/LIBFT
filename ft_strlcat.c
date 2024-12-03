@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 19:35:50 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/11/26 23:38:09 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/03 21:43:29 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,10 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 		return (ft_strlen(src) + size);
 	return (lendest + ft_strlen(src));
 }
+// sacre bordel peremet de concaterner une premier chaine a
+// une seconde chaine existente dans une taille
+// check de la taille sinon on return la source
+// on essai de mettre notre destination dan sla source
+// si nos deux variable sont inferieur a la taille revoir un char null
+// si la taille est inferieur a la len de la variable alors
+// revoie la taille de la source

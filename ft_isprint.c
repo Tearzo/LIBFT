@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 18:17:02 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/11/26 23:44:20 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/03 21:00:35 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,3 +19,4 @@ int	ft_isprint(int c)
 	else
 		return (0);
 }
+// tester si un caratere est imprimable ou non

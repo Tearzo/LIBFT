@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 19:48:48 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/11/26 23:40:01 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/03 21:32:25 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,4 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 	}
 	return (p);
 }
+// c'est un strcpy juste qui copie au nombre de caratere indiquer 

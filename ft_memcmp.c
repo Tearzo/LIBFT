@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 05:01:24 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/11/26 23:25:36 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/03 21:08:08 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,4 @@ int	ft_memcmp(const void *pointer1, const void *pointer2, size_t n)
 	}
 	return (0);
 }
+// fonction comme un strcmp sauf que la on compare deux bloc de memoire

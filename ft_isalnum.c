@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 17:35:52 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/11/26 05:24:19 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/03 20:57:29 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,4 @@ int	ft_isalnum(int c)
 	else
 		return (0);
 }
+// tester si un character est alphanumerique ou non

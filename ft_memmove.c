@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 05:15:13 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/11/26 05:52:39 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/03 21:42:00 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,3 +38,8 @@ void	*ft_memmove(void *destination, const void *source, size_t size)
 	}
 	return (destination);
 }
+// fonction comme un memcpy a l'exception aue les 2 zone de memoires
+// peuvent se chevaucher
+// si ya rien on renvoi NULL
+// si la taille est inferieur a 0 renvoie la destination
+// execute le memcpy

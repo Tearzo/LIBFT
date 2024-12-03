@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 03:04:34 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/11/26 23:10:16 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/03 20:48:16 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,5 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
+
+// permet d'ecrire des octets de valeur zero dans un bloc d'octet pointer par s

@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 20:04:46 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/11/26 23:46:17 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/03 21:40:26 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,4 @@ int	ft_toupper(int c)
 		return (c - 'a' + 'A');
 	return (c);
 }
+// change min en maj
