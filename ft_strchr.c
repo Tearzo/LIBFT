@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 23:01:26 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/12/03 21:42:53 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/03 23:08:56 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 char	*ft_strchr(const char *string, int searchedChar)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
 	while (string[i])

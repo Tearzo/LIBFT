@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 17:57:06 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/12/03 20:45:47 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/04 00:39:33 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 int	ft_atoi(const char *c)
 {
-	int	result;
-	int	sign;
-	int	i;
+	int		result;
+	int		sign;
+	size_t	i;
 
 	sign = 1;
 	i = 0;
@@ -41,3 +41,12 @@ int	ft_atoi(const char *c)
 // on gere les espaces etc
 // les + ou -
 // on change les caracteres en entier de 1 a 1
+/*
+int	main(void)
+{
+char	*s = "-418645151";
+
+printf("%s\n", ft_atoi(s));
+return (0);
+}
+*/

@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 05:15:13 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/12/03 21:42:00 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/04 01:10:13 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,3 +43,17 @@ void	*ft_memmove(void *destination, const void *source, size_t size)
 // si ya rien on renvoi NULL
 // si la taille est inferieur a 0 renvoie la destination
 // execute le memcpy
+/*
+int main (void)
+{
+char	dest[20];
+
+char src []= "RAAAAHHH";
+ft_memmove(det,src,13);
+printf("%s\n", dest);
+char la[] ="DOGO";
+ft_memmove(la + 2, la, 5)
+printf("%s\n", la);
+return (0);
+}
+*/

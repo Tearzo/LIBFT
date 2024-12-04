@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 03:39:37 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/12/03 21:43:54 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/04 00:55:50 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,10 @@
 char	*ft_strdup(const char *src)
 {
 	char	*c;
-	int		i;
+	size_t	i;
 
 	i = 0;
-	c = (malloc(sizeof(char) * ft_strlen(src) + 1));
+	c = malloc(sizeof(char) * (ft_strlen(src) + 1));
 	if (!c)
 		return (NULL);
 	while (src[i])

@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 19:35:50 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/12/03 21:43:29 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/03 23:10:32 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 size_t	ft_strlcat(char *dest, const char *src, size_t size)
 {
-	unsigned int	lendest;
-	unsigned int	j;
-	unsigned int	k;
+	size_t	lendest;
+	size_t	j;
+	size_t	k;
 
 	k = 0;
 	j = 0;
