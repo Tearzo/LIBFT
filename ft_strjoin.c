@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/27 00:17:23 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/12/03 21:43:08 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/04 01:11:03 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,3 +41,13 @@ char	*ft_strjoin(char const *s1, char const *s2)
 // deuxieme chaine de caratere
 // on lit la chaine de la premiere string
 // on colle ensuite la deuxieme chaine a la premiere
+/*int main(void)
+{
+char	*boom = ft_strjoin(s1, s2);
+
+char	*s1 = "bondour "
+char	*s2 = "les zamis"
+printf ("%s\n, boom")
+free (boom);
+}
+*/
