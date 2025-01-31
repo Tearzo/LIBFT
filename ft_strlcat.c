@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 19:35:50 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/12/03 23:10:32 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/04 19:03:35 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,3 +43,12 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 // si nos deux variable sont inferieur a la taille revoir un char null
 // si la taille est inferieur a la len de la variable alors
 // revoie la taille de la source
+/*
+int	main(void)
+{
+char	*src = "timothe";
+char	*dest = "est tres bo";
+size = sizeof(dest);
+printf("%s\n", ft_strlcat(dest, src, size));
+return (0);
+}*/

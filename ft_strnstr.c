@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 02:07:00 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/12/03 21:41:35 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/04 18:00:53 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,3 +38,11 @@ char	*ft_strnstr(const char *str, const char *to_find, size_t len)
 }
 // a la maniere d'un strstr mais permet de de chercher le chaien caratere
 // a une certaine taille
+/*
+int main (void)
+{
+char* rofl = "okchefsaldetomate";
+char* olfr = "salde";
+printf("%s\n", ft_strnstr(rofl, olfr, 20));
+return (0);
+}*/

@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/04 01:24:48 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/12/04 01:39:38 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/04 19:14:22 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,3 +32,16 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 // fonction semblable a striteri sauf que la j'alloue de l'espace
 // sur ma chaine puis faire le meme comportement c'est a dire
 // lafonction f va s'appliquer sur chacum des caractere
+/*
+void	ft_toupper(int c)
+{
+	if (c >= 'a' && c <= 'z')
+		return (c - 'a' + 'A');
+	return (c);
+}
+int main(void)
+{
+char *op = "carre";
+ft_strmapi(op, ft_toupper);
+printf("%s\n", ft_strimapi);
+}*/

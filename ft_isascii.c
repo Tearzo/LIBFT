@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 17:52:15 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/12/04 00:39:51 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/04 19:19:55 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,15 @@ int	ft_isascii(int c)
 		return (0);
 }
 // tester si un caratere est ascii ou non
+// tester si un character est alphanumerique ou non
+/*
+int	main(void)
+{
+char	test[] = {'A', '1', '5', '7', ' '};
+int		num = sizeof(test);
+
+for (int i = 0; i < sizeof(test); i++)
+{
+printf("%d\n", ft_isascii(sizeof(test)));
+}
+}*/

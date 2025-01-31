@@ -6,11 +6,11 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/03 23:59:46 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/12/04 01:50:42 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/10 20:04:48 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 static void	print(long nb, int fd)
 {

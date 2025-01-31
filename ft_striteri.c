@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/04 01:18:40 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/12/04 01:27:29 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/04 19:15:19 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,16 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 }
 // ici la fonction fait en en sorte de faire passer la fonvtion f
 // sur chaque caratere de la chaine s
+/*
+void	ft_toupper(int c)
+{
+	if (c >= 'a' && c <= 'z')
+		return (c - 'a' + 'A');
+	return (c);
+}
+int main(void)
+{
+char *op = "carre";
+ft_striteri(op, ft_toupper);
+printf("%s\n", ft_striteri);
+}*/

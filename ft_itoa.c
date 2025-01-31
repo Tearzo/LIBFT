@@ -1,61 +1,70 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   *
+/*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pol <pol@student.42.fr>                    +#+  +:+       +#+        */
+/*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/05 06:24:05 by pol               #+#    #+#             */
-/*   Updated: 2024/12/05 06:31:14 by pol              ###   ########.fr       */
+/*   Created: 2024/12/04 01:51:35 by pavorapa          #+#    #+#             */
+/*   Updated: 2024/12/09 09:42:45 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
+#include "libft.h"
 #include <stddef.h>
-static size_t count_size(long nb)
+
+static size_t	count_size(long nb)
 {
-    size_t size = 1; // Start with 1 to account for the first digit or sign
-    if (nb < 0)
-    {
-        nb = -nb;  // Convert to positive if negative
-        size++;    // Increase size for the negative sign
-    }
-    while (nb >= 10)
-    {
-        nb = nb / 10;
-        size++;
-    }
-    return size;
+	size_t	size;
+
+	size = 0;
+	if (nb < 0)
+	{
+		nb = -nb;
+		size = 1;
+	}
+	if (nb == 0)
+		size = 1;
+	else
+	{
+		while (nb)
+		{
+			nb = nb / 10;
+			size++;
+		}
+	}
+	return (size);
 }
 
-
-char *ft_itoa(int n)
+char	*ft_itoa(int n)
 {
-    size_t size;
-    long nb;
-    char *str;
+	size_t	size;
+	long	nb;
+	char	*str;
+	int		i;
 
-    nb = (long)n;
-    size = count_size(nb);
-
-    str = (char *)malloc(sizeof(char) * (size + 1));
-    if (!str)
-        return NULL;
-
-    str[size] = '\0';
-
-    if (nb < 0)
-    {
-        str[0] = '-';
-        nb = -nb;  // Convert to positive after handling the negative sign
-    }
-
-    // Convert the number into the string (from the last digit to the first)
-    while (size > (nb < 0))
-    {
-        str[--size] = (nb % 10) + '0';
-        nb = nb / 10;
-    }
-
-    return str;
+	nb = (long)n;
+	size = count_size(nb);
+	str = (char *)malloc(sizeof(char) * (size + 1));
+	if (str == NULL)
+		return (NULL);
+	i = 0;
+	if (nb < 0)
+	{
+		nb = -nb;
+		str[0] = '-';
+		i = 1;
+	}
+	str[size] = '\0';
+	while (size > (size_t)i)
+	{
+		str[size - 1] = nb % 10 + '0';
+		nb = nb / 10;
+		size--;
+	}
+	return (str);
 }
+// on commence avec 1 pour le premier digit
+// augment la talle pour le negatif
+// convertir au positif apres avoir gere le negatif
+// convertir par le dernier nombre sens inverse de la str

@@ -6,7 +6,7 @@
 #    By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/26 00:21:48 by pavorapa          #+#    #+#              #
-#    Updated: 2024/12/04 01:42:15 by pavorapa         ###   ########.fr        #
+#    Updated: 2024/12/11 19:13:39 by pavorapa         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,8 @@ LIBFT =    ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c \
         ft_strnstr.c ft_strrchr.c ft_tolower.c ft_toupper.c 
 
 ADDITIONAL =     ft_putchar_fd.c ft_putendl_fd.c ft_putnbr_fd.c ft_putstr_fd.c \
-                 ft_strjoin.c ft_strmapi.c ft_strtrim.c ft_substr.c ft_striteri.c
+                 ft_strjoin.c ft_strmapi.c ft_strtrim.c ft_substr.c ft_striteri.c \
+                 ft_split.c ft_itoa.c
 				
 SRCS = ${LIBFT} ${ADDITIONAL}
 
@@ -29,9 +30,9 @@ OBJSALL = ${SRCSALL:.c=.o}
 
 NAME = libft.a
 
-CC = gcc
+CC = cc
 
-CFLAGS = -Wall -Werror -Wextra -I ./
+CFLAGS = -Wall -Werror -Wextra
 
 .c.o:
 		${CC} ${CFLAGS} -c $< -o ${<:.c=.o}
@@ -49,4 +50,4 @@ fclean:    clean;
 
 re:    fclean all
 
-.PHONY: all clean fclean 
+.PHONY: all clean fclean re

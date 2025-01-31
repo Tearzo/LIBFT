@@ -6,7 +6,7 @@
 /*   By: pavorapa <pavorapa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 19:37:57 by pavorapa          #+#    #+#             */
-/*   Updated: 2024/12/03 21:34:41 by pavorapa         ###   ########.fr       */
+/*   Updated: 2024/12/04 19:05:31 by pavorapa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,15 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	return (0);
 }
 // compare 2 chaine de charactere au n caracter donne par la taille 
+/*
+int	main(void)
+{
+char	s1[] = "HOLAAAAAA";
+char	s2[] = "HOLAAAAAA";
+size_t	len= sizeof(s1);
+
+int *boom = ft_strncmp(s1, s2, len); 
+printf("%d\n", boom);
+return (0);
+}
+*/
